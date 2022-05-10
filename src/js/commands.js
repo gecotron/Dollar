@@ -9,6 +9,11 @@ function google(args) {
     }
 }
 
+r = reddit;
+function reddit(args) {
+    window.open("https://reddit.com", "_self");
+}
+
 // Display time
 time = clock;
 function clock(args) {
