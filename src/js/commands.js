@@ -3,15 +3,15 @@ g = google;
 function google(args) {
     if (args != undefined) {
         search = args.replace(" ", "+")
-        window.open("https://www.google.com/search?q=" + search, "_self");
+        window.open("https://www.google.com/search?q=" + search);
     } else {
-        window.open("https://www.google.com", "_self");
+        window.open("https://www.google.com");
     }
 }
 
 r = reddit;
 function reddit(args) {
-    window.open("https://reddit.com", "_self");
+    window.open("https://reddit.com");
 }
 
 // Display time
