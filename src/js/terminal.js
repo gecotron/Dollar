@@ -1,6 +1,6 @@
 // Terminal config
 config = {
-    shellPrompt: "$ "
+    shellPrompt: "gecotron @ firefox: ~$ "
 }
 
 document.getElementById("input_title").innerText = config.shellPrompt;
