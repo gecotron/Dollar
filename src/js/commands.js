@@ -9,6 +9,20 @@ function google(args) {
     }
 }
 
+sp = startpage
+function startpage(args) {
+    if (args != undefined) {
+        search = args.replace(" ", "+")
+        window.open("https://www.startpage.com/do/dsearch?query=" + search)
+    } else {
+        window.open("https://www.startpage.com")
+    }
+}
+
+function echo(args) {
+    block_log(args)
+}
+
 r = reddit;
 function reddit(args) {
     window.open("https://reddit.com");
